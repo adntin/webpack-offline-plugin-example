@@ -8,7 +8,7 @@ module.exports = {
   entry: './src/index.js',
   output: {
     filename: '[name].[hash].js',
-    path: './assets/',
+    path: __dirname + '/assets/',
   },
   plugins: [html, offline],
 }
